@@ -11,3 +11,32 @@ fun main(){
    var userName : String = "Isha"
    println("hello $userName")
 o/t = hello Isha
+
+### changing value of variable
+fun main(){
+ var userName : String = "Isha"
+ userName = "Isha Nayal"
+ println("hello $userName")
+o/t hello Isha Nayal
+
+kotlin is static language...ie it checks the variable type at the time of writing code or compile time
+
+val stands for value
+its content cannot be changed like we change of var
+
+fun main(){
+var userName : String = "Isha"
+userName = "Isha Nayal"
+println("hello $userName")
+val myWork : String = "coding"
+println("do $myWork")
+o/t hello Isha Nayal
+    do coding
+
+kotlin has an inbuild type interface which detects the type of data stored in the variable so we can skip declaring the type of data 
+
+
+
+
+
+
