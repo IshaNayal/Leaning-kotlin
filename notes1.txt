@@ -35,7 +35,12 @@ o/t hello Isha Nayal
 
 kotlin has an inbuild type interface which detects the type of data stored in the variable so we can skip declaring the type of data 
 
+fun main(){
+  var userName: String = "Isha"
+  val userAge: Int = 18
+  println("hello $userName, your age is $userAge")
 
+}
 
 
 
