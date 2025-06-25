@@ -109,3 +109,59 @@ fun main(){
 
 Output:
 D
+
+
+## Boolean Data Type
+fun main(){
+  val myBooleanValue: Boolean = true
+  println(myBooleanValue)
+
+Output:
+true
+
+
+fun main(){
+  val x = 5
+  val y = 3
+  val result = x + y
+  println("result = $result")
+}
+
+Output:
+result = 8
+
+
+fun main(){
+  val x = 5
+  val y = 3
+ println("x+y = ${x+y}")
+ println("x-y = ${x-y}")
+  println("x*y = ${x*y}")
+   println("x/y = ${x/y}")
+    println("x%y = ${x%y}")
+}
+
+Output:
+
+x+y = 8
+x-y = 2
+x*y = 15
+x/y = 1
+x%y = 2
+
+
+
+fun main(){
+  val x = 5
+  val y = 3
+var result = x + y
+ result = result + 2
+ println("result = $result")
+ }
+Output:
+result = 10
+
+result = result + 2 can also be written as result += 2
+and same for other operator
+
+increment operator
