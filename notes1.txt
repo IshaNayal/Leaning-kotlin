@@ -78,3 +78,15 @@ println("Short min value : $shortMinValue")
 
 Output: Short max value : 32767
 Short min value : -32768
+
+## Long data type
+fun main(){
+val longMaxValue : Long = Long.MAX_VALUE
+val longMinValue : Long = Long.MIN_VALUE
+println("Long max value: $longMaxValue")
+println("Long min value: $longMinValue")
+
+Output:
+
+Long max value: 9223372036854775807
+Long min value: -9223372036854775808
