@@ -66,3 +66,15 @@ fun main(){
 
 Output: Byte max value : 127
 Byte min value : -128
+
+
+## Short data type
+fun main(){
+val shortMaxValue = Short.MAX_VALUE
+val shortMinValue = Short.MIN_VALUE
+println("Short max value : $shortMaxValue")
+println("Short min value : $shortMinValue")
+}
+
+Output: Short max value : 32767
+Short min value : -32768
