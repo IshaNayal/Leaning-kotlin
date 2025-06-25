@@ -53,9 +53,9 @@ O/T  Integer max value : 2147483647
 Integer min value : -2147483648
 
 if we store value above or below this range in int data type, it shows error
+int occupies 32 bit
 
-
-## byte data type
+## byte data type (occupies 8 bit)
 fun main(){
   val byteMaxValue = Byte.MAX_VALUE
   val byteMinValue = Byte.MIN_VALUE
@@ -68,7 +68,7 @@ Output: Byte max value : 127
 Byte min value : -128
 
 
-## Short data type
+## Short data type (occupies 16 bit)
 fun main(){
 val shortMaxValue = Short.MAX_VALUE
 val shortMinValue = Short.MIN_VALUE
@@ -90,3 +90,22 @@ Output:
 
 Long max value: 9223372036854775807
 Long min value: -9223372036854775808
+
+
+fun main(){
+  val numOne = 2.50
+  val numTwo = 2.50
+  println("numOne = $numOne and numTwo =$numTwo")
+}
+
+Output:
+numOne = 2.5 and numTwo =2.5
+
+## Char data type
+fun main(){
+ val myCharValue: Char = 'D'
+ println("$myCharValue")
+}
+
+Output:
+D
