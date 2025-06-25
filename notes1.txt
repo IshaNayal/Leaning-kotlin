@@ -236,3 +236,4 @@ fun main() {
 }
 OUTPUT : true
 do the same for less than operator
+.
