@@ -164,6 +164,75 @@ result = 10
 result = result + 2 can also be written as result += 2
 and same for other operator
 
-increment operator
+increment operator = inc value by 1
+fun main() {
+   var x: Int = 5
+    println("x++ : ${x++}")
+    println("after postfix increment, x: $x")
+    println("++x : ${++x}")
+    println("after prefix increment, x: $x")
+  
+}
+Output:
 
-decrement operator
+x++ : 5
+after postfix increment, x: 6
+++x : 7
+after prefix increment, x: 7
+
+decrement operator = dec value by 1
+fun main() {
+   var x: Int = 5
+    println("x-- : ${x--}")
+    println("after postfix decrement, x: $x")
+    println("--x : ${--x}")
+    println("after prefix decrement, x: $x")
+  
+}
+Output:
+
+x-- : 5
+after postfix decrement, x: 4
+--x : 3
+after prefix decrement, x: 3
+
+### control statements
+fun main() {
+   val isActive = false
+   if (isActive == true){
+     println("the condition is true")
+   }
+   else{
+     println("the condition is false")
+   }
+  
+}
+Output: the condition is false
+
+fun main() {
+   val isActive = true
+   if (isActive == true){
+     println("the condition is true")
+   }
+   else{
+     println("the condition is false")
+   }
+  
+}
+Output:the condition is true
+
+if we replace  "if (isActive == true)" with  "if (isActive )" ,then also the outputs will be same
+
+
+fun main() {
+   val myNum = 5
+   if 
+     (myNum >= 3){
+     println("true")
+   }
+   else{
+     println("false")
+   }
+}
+OUTPUT : true
+do the same for less than operator
