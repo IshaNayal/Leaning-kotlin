@@ -1,1 +1,6 @@
-
+fun main(){
+   println("hello world")
+}
+JDK converts kotlin source code to Java Byte Code
+JVM converts Java Byte Code to Machine code
+Machine code depends on the type of Operating system
