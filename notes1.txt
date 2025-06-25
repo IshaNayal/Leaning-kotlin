@@ -165,3 +165,5 @@ result = result + 2 can also be written as result += 2
 and same for other operator
 
 increment operator
+
+decrement operator
