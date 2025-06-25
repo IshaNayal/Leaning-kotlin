@@ -52,3 +52,4 @@ fun main(){
 O/T  Integer max value : 2147483647
 Integer min value : -2147483648
 
+if we store value above or below this range in int data type, it shows error
